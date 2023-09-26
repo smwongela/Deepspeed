@@ -2637,7 +2637,7 @@ class DeepSpeedEngine(Module):
     def load_checkpoint(self,
                         load_dir,
                         tag=None,
-                        load_module_strict=True,
+                        load_module_strict=False,
                         load_optimizer_states=True,
                         load_lr_scheduler_states=True,
                         load_module_only=False,
